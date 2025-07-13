@@ -1,5 +1,3 @@
-# CS661_Final_Project-Nutriviz
-
 # 🥗 NutriViz: Interactive Nutritional Insights
 
 ## 📌 Overview
@@ -14,23 +12,11 @@ Through a data-driven interface, NutriViz allows users to:
 
 ---
 
-## 📁 Project Structure
+## 📊 Data Source
 
-CS661_Final_Project/
-├── data/
-│ ├──nutrition.xlsx
-| ├──nutrition_fullcleaned.xlsx
-├── pages/
-│ ├── Overview.py
-│ ├── Macronutrient_Distribution_Analysis.py
-│ ├── Vitamin_and_Mineral_Density.py
-│ ├── Fat_Composition_Analysis.py
-│ ├── Food_Category_Benchmarking.py
-│ ├── Nutrition-Based_Food_Search.py
-│ ├── Nutrient_Correlation_Exploration.py
-│ └── CaloriemacroCalculator.py
-└── Home.py
-
+The nutritional dataset used in this project was obtained from Kaggle:  
+🔗 [Nutrition Dataset – Kaggle](https://www.kaggle.com/datasets/gokulprasantht/nutrition-dataset
+)
 
 ---
 
@@ -45,28 +31,53 @@ CS661_Final_Project/
 
 ## 🛠️ Tech Stack
 
-| Purpose                | Libraries & Tools                            |
-|------------------------|----------------------------------------------|
-| **Data Processing**    | `Pandas`, `NumPy`, `SciPy`, `t-SNE`, `GMM`   |
-| **Visualization**      | `Plotly`, `Matplotlib`, `Seaborn`           |
-| **Dashboard Deployment** | `Streamlit`                              |
-| **Version Control**    | `Git`, `GitHub`                              |
+| Purpose                 | Libraries & Tools                             |
+|-------------------------|-----------------------------------------------|
+| **Data Processing**     | `Pandas`, `NumPy`, `SciPy`, `t-SNE`, `GMM`    |
+| **Visualization**       | `Plotly`, `Matplotlib`, `Seaborn`            |
+| **Dashboard Deployment**| `Streamlit`                                   |
+| **Version Control**     | `Git`, `GitHub`                               |
 
 ---
 
 ## 💡 How to Run Locally
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AnandBanoth2004/CS661_Final_Project-Nutriviz
-   cd CS661_Final_Project
+Follow these steps to set up and run NutriViz on your system:
 
-2. **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-3. **Run the Streamlit App**
+1. **Download the Dataset**
+   - Visit [this Kaggle link](https://www.kaggle.com/datasets/gokulprasantht/nutritiondataset)
+   - Download the dataset ZIP and extract the files
+   - Ensure the Excel file (e.g., `nutrition.xlsx`) is placed in a folder named `data/`
+
+2. **Create Project Folder**
+   - Open VS Code
+   - Create a new directory named `CS661_Final_Project`
+   - Inside it, create the following structure:
+     ```
+     CS661_Final_Project/
+     ├── data/
+     │   └── nutrition.xlsx
+     ├── pages/
+     │   ├── Overview.py
+     │   ├── Macronutrient_Distribution_Analysis.py
+     │   ├── Vitamin_and_Mineral_Density.py
+     │   ├── Fat_Composition_Analysis.py
+     │   ├── Food_Category_Benchmarking.py
+     │   ├── Nutrition-Based_Food_Search.py
+     │   ├── Nutrient_Correlation_Exploration.py
+     │   └── CaloriemacroCalculator.py
+     └── Home.py
+     ```
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the Streamlit App**
     ```bash
     streamlit run Home.py
+
+- This will launch the Streamlit app in your browser. The homepage will guide you through the available visualizations and tools.
 
 📊 **Pages Description**
 
