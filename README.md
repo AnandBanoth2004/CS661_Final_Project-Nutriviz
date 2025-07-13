@@ -90,9 +90,9 @@ Each Python file in the pages/ directory represents a dedicated feature module:
 | `Vitamin_and_Mineral_Density.py`         | Visualize micronutrient-rich foods                    |
 | `Fat_Composition_Analysis.py`            | Dive into types of fats and their health implications |
 | `Food_Category_Benchmarking.py`          | Compare nutrient profiles across food categories      |
-| `Nutrition-Based_Food_Search.py`         | Search for foods using health-driven filters          |
+| `Nutrition_Based_Food_Search.py`         | Search for foods using health-driven filters          |
 | `Nutrient_Correlation_Exploration.py`    | Analyze interdependencies between nutrients           |
-| `CaloriemacroCalculator.py`              | Estimate calorie intake from macronutrient breakdown  |
+| `Calorie_Macro_Calculator.py`              | Estimate calorie intake from macronutrient breakdown  |
 
 
 📈 **Example Use Cases**
