@@ -63,9 +63,9 @@ Follow these steps to set up and run NutriViz on your system:
      │   ├── Vitamin_and_Mineral_Density.py
      │   ├── Fat_Composition_Analysis.py
      │   ├── Food_Category_Benchmarking.py
-     │   ├── Nutrition-Based_Food_Search.py
+     │   ├── Nutrition_Based_Food_Search.py
      │   ├── Nutrient_Correlation_Exploration.py
-     │   └── CaloriemacroCalculator.py
+     │   └── Calorie_Macro_Calculator.py
      └── Home.py
      ```
 
